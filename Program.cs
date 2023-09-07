@@ -11,6 +11,7 @@ ConfigurationManager configuration = builder.Configuration;
 
 builder.Services.AddControllers();
 builder.Services.AddTransient<IClimateService, ClimateService>(); // Replace ClimateService with the correct implementation class
+builder.Services.AddTransient<INaturalEventsService, NaturalEventsService>(); // Replace ClimateService with the correct implementation class
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -28,9 +29,11 @@ builder.Services.AddGraphQLServer().AddQueryType<Query>().AddProjections().AddFi
 builder.Services.AddEntityFrameworkNpgsql().AddDbContext<ApplicationDbContext>(opt =>
         opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddCors();
 
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -40,6 +43,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(builder => builder
+    .WithOrigins("http://localhost:3000")  // replace with your front-end app's URL
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .AllowCredentials());  // This allows cookies
+
 
 app.UseAuthorization();
 

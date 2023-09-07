@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Tropical Storm Gert",
+    "source": "https://www.nhc.noaa.gov/archive/2023/HAROLD.shtml",
+    "magnitude": {
+      "current": 35,
+      "minimum": 25,
+      "maximum": 40
+    },
+    "date": "2023-09-07T18:26:56.199Z",
+    "coordinates": {
+      "latitude": 38.821709234211,
+      "longitude": -104.81456616323995
+    }
+  },
+  {
+    "id": 2,
+    "name": "Tropical Storm Harold",
+    "source": "https://www.nhc.noaa.gov/archive/2023/HAROLD.shtml",
+    "magnitude": {
+      "current": 35,
+      "minimum": 25,
+      "maximum": 40
+    },
+    "date": "2023-09-06T18:26:56.199Z",
+    "coordinates": {
+      "latitude": 12.435069517522322,
+      "longitude": 18.167148160563773
+    }
+  },
+  {
+    "id": 3,
+    "name": "Tropical Storm Franklin",
+    "source": "https://www.nhc.noaa.gov/archive/2023/HAROLD.shtml",
+    "magnitude": {
+      "current": 35,
+      "minimum": 25,
+      "maximum": 40
+    },
+    "date": "2023-09-05T18:26:56.199Z",
+    "coordinates": {
+      "latitude": 63.8060615038796,
+      "longitude": 90.94058145124636
+    }
+  },
+  {
+    "id": 4,
+    "name": "Tropical Storm Test",
+    "source": "https://www.nhc.noaa.gov/archive/2023/HAROLD.shtml",
+    "magnitude": {
+      "current": 35,
+      "minimum": 25,
+      "maximum": 40
+    },
+    "date": "2023-09-04T18:26:56.199Z",
+    "coordinates": {
+      "latitude": -32.945443183272715,
+      "longitude": -63.39534712174714
+    }
+  },
+  {
+    "id": 5,
+    "name": "Tropical Storm Woo",
+    "source": "https://www.nhc.noaa.gov/archive/2023/HAROLD.shtml",
+    "magnitude": {
+      "current": 35,
+      "minimum": 25,
+      "maximum": 40
+    },
+    "date": "2023-09-03T18:26:56.199Z",
+    "coordinates": {
+      "latitude": -24.798108612999112,
+      "longitude": 124.51479825926658
+    }
+  },
+  {
+    "id": 6,
+    "name": "Tropical Storm Poop",
+    "source": "https://www.nhc.noaa.gov/archive/2023/HAROLD.shtml",
+    "magnitude": {
+      "current": 35,
+      "minimum": 25,
+      "maximum": 40
+    },
+    "date": "2023-09-02T18:26:56.199Z",
+    "coordinates": {
+      "latitude": 31.698816204723155,
+      "longitude": 104.47573691835397
+    }
+  },
+  {
+    "id": 7,
+    "name": "Tropical Storm YeeHaw",
+    "source": "https://www.nhc.noaa.gov/archive/2023/HAROLD.shtml",
+    "magnitude": {
+      "current": 35,
+      "minimum": 25,
+      "maximum": 40
+    },
+    "date": "2023-09-01T18:26:56.199Z",
+    "coordinates": {
+      "latitude": 33.47598459079279,
+      "longitude": -42.47737958167171
+    }
+  },
+  {
+    "id": 8,
+    "name": "Tropical Storm boob",
+    "source": "https://www.nhc.noaa.gov/archive/2023/HAROLD.shtml",
+    "magnitude": {
+      "current": 35,
+      "minimum": 25,
+      "maximum": 40
+    },
+    "date": "2023-08-07T18:26:56.199Z",
+    "coordinates": {
+      "latitude": 12.091529587234335,
+      "longitude": -78.33675451049966
+    }
+  },
+  {
+    "id": 9,
+    "name": "Tropical Storm peepee",
+    "source": "https://www.nhc.noaa.gov/archive/2023/HAROLD.shtml",
+    "magnitude": {
+      "current": 35,
+      "minimum": 25,
+      "maximum": 40
+    },
+    "date": "2023-08-08T18:26:56.199Z",
+    "coordinates": {
+      "latitude": 59.73901192024442,
+      "longitude": -43.70785026348405
+    }
+  }
+]
