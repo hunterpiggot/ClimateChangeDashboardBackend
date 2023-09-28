@@ -2,6 +2,6 @@ namespace ClimateChangeDashboardBackend.Interfaces
 {
     public interface IHistoricalDataService
     {
-        Task<List<HistoricalDataData>> GetHistoricalDataDataAsync();
+        Task<HistoricalData> GetHistoricalDataAsync(string startDateTime, string endDateTime, string aggregation);
     }
 }

@@ -109,3 +109,6 @@ C:\Users\hunte\Documents\programming\climate-change-dashboard\ClimateChangeDashb
 C:\Users\hunte\Documents\programming\climate-change-dashboard\ClimateChangeDashboardBackend\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\hunte\Documents\programming\climate-change-dashboard\ClimateChangeDashboardBackend\bin\Debug\net7.0\mock-data\natural-events.json
 C:\Users\hunte\Documents\programming\climate-change-dashboard\ClimateChangeDashboardBackend\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\hunte\Documents\programming\climate-change-dashboard\ClimateChangeDashboardBackend\bin\Debug\net7.0\mock-data\historical-data-long.json
+C:\Users\hunte\Documents\programming\climate-change-dashboard\ClimateChangeDashboardBackend\bin\Debug\net7.0\mock-data\historical-data-short.json
+C:\Users\hunte\Documents\programming\climate-change-dashboard\ClimateChangeDashboardBackend\bin\Debug\net7.0\mock-data\test.json

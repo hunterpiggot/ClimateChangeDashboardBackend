@@ -12,6 +12,7 @@ ConfigurationManager configuration = builder.Configuration;
 builder.Services.AddControllers();
 builder.Services.AddTransient<IClimateService, ClimateService>(); // Replace ClimateService with the correct implementation class
 builder.Services.AddTransient<INaturalEventsService, NaturalEventsService>(); // Replace ClimateService with the correct implementation class
+builder.Services.AddTransient<IHistoricalDataService, HistoricalDataService>(); // Replace ClimateService with the correct implementation class
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

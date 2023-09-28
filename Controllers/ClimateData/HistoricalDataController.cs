@@ -13,11 +13,11 @@ public class HistoricalDataController : ControllerBase
     }
 
     [HttpGet("historical-data")]
-    public async Task<IActionResult> GetHistoricalDataData()
+    public async Task<IActionResult> GetHistoricalDataData([FromQuery] string startDateTime, [FromQuery] string endDateTime, string aggregation)
     {
         try
         {
-            var historicalDataData = await _historicalDataService.GetHistoricalDataDataAsync();
+            var historicalDataData = await _historicalDataService.GetHistoricalDataAsync(startDateTime, endDateTime, aggregation);
             return Ok(historicalDataData);
         }
         catch (Exception ex)

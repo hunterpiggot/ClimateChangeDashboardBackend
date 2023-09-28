@@ -1,0 +1,17 @@
+{
+    "latitude": 52.5,
+    "longitude": 13.400009,
+    "generationTimeMs": 0,
+    "utcOffsetSeconds": 0,
+    "timezone": "GMT",
+    "timezoneAbbreviation": "",
+    "elevation": 38,
+    "hourlyUnits": {
+        "time": "",
+        "temperatureTwoM": ""
+    },
+    "hourly": {
+        "time": [],
+        "temperatureTwoM": []
+    }
+}
